@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fcfaf6">
+  <title>Stereo Sabha</title>
+  <link rel="icon" type="image/png" href="/voice-arena-mark.png">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/"><img class="brand-icon" src="/voice-arena-mark.png" alt="" width="44" height="44"><span class="wordmark">Stereo Sabha<small>A little room for a big conversation.</small></span><span class="local-badge">CLOUD VOICE</span></a><div class="connection"><span id="connection-dot" class="dot"></span><span id="connection">Connecting</span></div></header>
+  <main>
+    <section class="intro"><p class="eyebrow">A SPACE FOR DIFFERENT PERSPECTIVES</p><h1>Listen. Question. <span>Discover.</span></h1><p class="lede">Aarav in your left ear. Meera in your right. You, whenever you like.</p><div class="privacy"><strong id="privacy-title">Powered by Sarvam</strong><p id="privacy-body">Uses your free credits · Prompts and mic audio go to Sarvam.</p></div></section>
+    <form id="room-form" class="setup">
+      <div class="topic-field"><label for="topic">Let’s talk about</label><input id="topic" value="क्या स्टार्टअप को जल्दी लॉन्च करना चाहिए या पहले उत्पाद को बेहतर बनाना चाहिए?" minlength="3" maxlength="500" required placeholder="A big idea, a difficult decision, a deal to make…"></div>
+      <div class="setup-options"><label>Conversation<select id="mode"><option value="debate">Debate</option><option value="negotiate">Negotiate</option></select></label><label>Language<select id="language"><option value="en">English</option><option value="hi" selected>हिन्दी</option><option value="both">English + हिन्दी</option></select></label><button id="start" class="primary" type="submit" disabled>Start conversation <span>↗</span></button></div>
+    </form>
+    <div class="workspace">
+      <section class="room-stage" aria-label="Voice participants">
+        <div class="stage-heading"><span id="room-status">Settle in. Make yourself heard.</span><div class="stage-actions"><button id="test-audio" class="text-button" type="button"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 14v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/></svg> Check your headphones</button><button id="pause" class="text-button" type="button" disabled>Pause</button></div></div>
+        <div class="agents">
+          <article class="agent atlas" id="agent-0"><h2>Aarav</h2><p class="role" id="role-0">Makes the case.</p><div class="ear"><img src="/listening-ear.png" alt="" width="180" height="180" draggable="false"><span>L</span></div><span class="agent-state">Ready</span><p class="utterance"></p></article>
+          <div class="wave-path wave-left" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="room-core"><div class="center-dot" aria-hidden="true"></div><p id="speaker-label" role="status" aria-live="polite">The room is yours.</p><span id="speaker-detail">Two voices. Your perspective.</span></div>
+          <div class="wave-path wave-right" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <article class="agent nova" id="agent-1"><h2>Meera</h2><p class="role" id="role-1">Questions the assumptions.</p><div class="ear"><img src="/listening-ear.png" alt="" width="180" height="180" draggable="false"><span>R</span></div><span class="agent-state">Ready</span><p class="utterance"></p></article>
+        </div>
+        <div class="moderator"><button id="mic" type="button" class="mic-button" aria-label="Enable microphone" aria-pressed="false" disabled><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M6 11v1a6 6 0 0 0 12 0v-1M12 18v3m-3 0h6"/></svg></button><div class="moderator-info"><strong>You <span>PART OF THE CONVERSATION</span></strong><p id="mic-status">Enable your mic to jump in. Headphones recommended.</p><meter id="mic-level" min="0" max="0.1" value="0" aria-label="Microphone level"></meter></div><span class="mic-label" id="mic-label">MIC OFF</span></div>
+        <div class="sensitivity"><label for="threshold">Mic sensitivity</label><input id="threshold" type="range" min="0.005" max="0.05" step="0.001" value="0.015"><span>Adjust for your voice</span></div>
+        <form id="moderator-form" class="moderator-form"><label class="sr-only" for="moderator-text">Moderator message</label><input id="moderator-text" placeholder="A question, a different take, a new direction…" maxlength="1000" required><button id="send" type="submit" disabled aria-label="Send moderator message">↗</button></form>
+      </section>
+      <aside class="transcript-panel"><div class="transcript-heading"><h2>The conversation</h2><button id="export" class="text-button" type="button">Save ↧</button></div><div id="transcript" role="log" aria-live="polite" aria-relevant="additions"><div class="empty-state"><span>“</span><p>The conversation starts here.</p><small>Pick a topic and enter the room.</small></div></div><div class="transcript-footer"><span class="dot"></span>Live transcript<span id="latency">—</span></div></aside>
+    </div>
+    <div id="notice" role="status" aria-live="polite" hidden></div>
+    <footer><span>THREE MINDS. ONE ROOM.</span><p>Free credit balance · English & Hindi · Use stereo headphones</p><span class="version">v0.1 / LOCAL</span></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,1860 @@
+{
+  "captured": "2026-10-14",
+  "scope": "API Reference section linked from the user-provided introduction",
+  "total": 140,
+  "retrieved": 123,
+  "unavailable": 17,
+  "limitations": "Required-field extraction is partial where documentation hides nested schemas. This is an index and contract digest, not a full schema mirror.",
+  "pages": [
+    {
+      "title": "Welcome to Sarvam AI API Reference Documentation",
+      "url": "https://docs.sarvam.ai/api-reference/introduction",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Authentication",
+      "url": "https://docs.sarvam.ai/api-reference/authentication",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Access to Beta APIs",
+      "url": "https://docs.sarvam.ai/api-reference/beta-apis",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [
+        "sarvam-105b",
+        "sarvam-105b-conversations"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Meta Prompt Guide",
+      "url": "https://docs.sarvam.ai/api-reference/metaprompt",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [
+        "mayura:v1",
+        "sarvam-105b",
+        "sarvam-105b-conversations",
+        "sarvam-30b",
+        "saaras:v4",
+        "bulbul:v4-flash",
+        "bulbul:v3",
+        "bulbul:v2"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://docs.sarvam.ai/api-reference/conversations",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Campaigns webhook payload",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/webhook-payload",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Instant Outbound webhook payload",
+      "url": "https://docs.sarvam.ai/api-reference/instant-outbound/webhook-payload",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Boards API overview",
+      "url": "https://docs.sarvam.ai/api-reference/boards/overview",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Writing board SQL",
+      "url": "https://docs.sarvam.ai/api-reference/boards/sql",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Best practices",
+      "url": "https://docs.sarvam.ai/api-reference/boards/best-practices",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Tests API overview",
+      "url": "https://docs.sarvam.ai/api-reference/tests/overview",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Best practices",
+      "url": "https://docs.sarvam.ai/api-reference/tests/best-practices",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "BYOK overview",
+      "url": "https://docs.sarvam.ai/api-reference/byok/overview",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "REST",
+      "url": "https://docs.sarvam.ai/api-reference/speech-to-text/transcribe",
+      "method": "POST",
+      "endpoint": "/speech-to-text",
+      "required_fields": [
+        "file"
+      ],
+      "models": [
+        "saaras:v4",
+        "saaras:v3"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Initiate Job",
+      "url": "https://docs.sarvam.ai/api-reference/speech-to-text/stt/job/initiate",
+      "method": "POST",
+      "endpoint": "/speech-to-text/job/v1",
+      "required_fields": [
+        "job_parameters"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Upload Files",
+      "url": "https://docs.sarvam.ai/api-reference/speech-to-text/stt/job/upload",
+      "method": "POST",
+      "endpoint": "/speech-to-text/job/v1/upload-files",
+      "required_fields": [
+        "job_id",
+        "files"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Start Job",
+      "url": "https://docs.sarvam.ai/api-reference/speech-to-text/stt/job/start",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Get Status",
+      "url": "https://docs.sarvam.ai/api-reference/speech-to-text/stt/job/status",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Download Results",
+      "url": "https://docs.sarvam.ai/api-reference/speech-to-text/stt/job/download",
+      "method": "POST",
+      "endpoint": "/speech-to-text/job/v1/download-files",
+      "required_fields": [
+        "job_id",
+        "files"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Realtime Streaming",
+      "url": "https://docs.sarvam.ai/api-reference/speech-to-text/transcribe/realtime/ws",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [
+        "Api-Subscription-Key",
+        "language_code"
+      ],
+      "models": [
+        "saaras:v3",
+        "saaras:v4"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "REST",
+      "url": "https://docs.sarvam.ai/api-reference/text-to-speech/convert",
+      "method": "POST",
+      "endpoint": "/text-to-speech",
+      "required_fields": [
+        "text",
+        "language_code"
+      ],
+      "models": [
+        "bulbul:v4-flash",
+        "bulbul:v3",
+        "bulbul:v2"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "REST Stream",
+      "url": "https://docs.sarvam.ai/api-reference/text-to-speech/convert-stream",
+      "method": "POST",
+      "endpoint": "/text-to-speech/stream",
+      "required_fields": [
+        "text"
+      ],
+      "models": [
+        "bulbul:v3",
+        "bulbul:v2",
+        "bulbul:v4-flash"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "WebSocket",
+      "url": "https://docs.sarvam.ai/api-reference/text-to-speech/stream",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [
+        "Api-Subscription-Key"
+      ],
+      "models": [
+        "bulbul:v2",
+        "bulbul:v3",
+        "bulbul:v4-flash"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create Voice",
+      "url": "https://docs.sarvam.ai/api-reference/voice-cloning/create-voice",
+      "method": "POST",
+      "endpoint": "/voices/create",
+      "required_fields": [
+        "file",
+        "name",
+        "language"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Generate Speech",
+      "url": "https://docs.sarvam.ai/api-reference/voice-cloning/clone",
+      "method": "POST",
+      "endpoint": "/voices/clone",
+      "required_fields": [
+        "text",
+        "language_code"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "REST Stream",
+      "url": "https://docs.sarvam.ai/api-reference/voice-cloning/clone-stream",
+      "method": "POST",
+      "endpoint": "/voices/clone/stream",
+      "required_fields": [
+        "text",
+        "language_code"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "WebSocket",
+      "url": "https://docs.sarvam.ai/api-reference/voice-cloning/clone-ws",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [
+        "Api-Subscription-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List Voices",
+      "url": "https://docs.sarvam.ai/api-reference/voice-cloning/list-voices",
+      "method": "GET",
+      "endpoint": "/voices",
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Voice",
+      "url": "https://docs.sarvam.ai/api-reference/voice-cloning/get-voice",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "voice_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Delete Voice",
+      "url": "https://docs.sarvam.ai/api-reference/voice-cloning/delete-voice",
+      "method": "DELETE",
+      "endpoint": null,
+      "required_fields": [
+        "voice_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create",
+      "url": "https://docs.sarvam.ai/api-reference/pronunciation-dictionary/create",
+      "method": "POST",
+      "endpoint": "/text-to-speech/pronunciation-dictionary",
+      "required_fields": [
+        "file"
+      ],
+      "models": [
+        "bulbul:v3",
+        "bulbul:v4-flash"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List",
+      "url": "https://docs.sarvam.ai/api-reference/pronunciation-dictionary/list",
+      "method": "GET",
+      "endpoint": "/text-to-speech/pronunciation-dictionary",
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get",
+      "url": "https://docs.sarvam.ai/api-reference/pronunciation-dictionary/get",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "dict_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update",
+      "url": "https://docs.sarvam.ai/api-reference/pronunciation-dictionary/update",
+      "method": "PUT",
+      "endpoint": "/text-to-speech/pronunciation-dictionary",
+      "required_fields": [
+        "dict_id",
+        "file"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Delete",
+      "url": "https://docs.sarvam.ai/api-reference/pronunciation-dictionary/delete",
+      "method": "DELETE",
+      "endpoint": "/text-to-speech/pronunciation-dictionary",
+      "required_fields": [
+        "dict_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Text Translation",
+      "url": "https://docs.sarvam.ai/api-reference/text/translate-text",
+      "method": "POST",
+      "endpoint": "/translate",
+      "required_fields": [
+        "input",
+        "source_language_code",
+        "target_language_code"
+      ],
+      "models": [
+        "mayura:v1"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Transliteration",
+      "url": "https://docs.sarvam.ai/api-reference/text/transliterate-text",
+      "method": "POST",
+      "endpoint": "/transliterate",
+      "required_fields": [
+        "input",
+        "source_language_code",
+        "target_language_code"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Language Detection",
+      "url": "https://docs.sarvam.ai/api-reference/text/identify-language",
+      "method": "POST",
+      "endpoint": "/text-lid",
+      "required_fields": [
+        "input"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Chat Completion V1",
+      "url": "https://docs.sarvam.ai/api-reference/chat/chat-completions-v1",
+      "method": "POST",
+      "endpoint": "/v1/chat/completions",
+      "required_fields": [
+        "messages",
+        "model"
+      ],
+      "models": [
+        "sarvam-105b",
+        "sarvam-105b-conversations"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Chat Completion V2",
+      "url": "https://docs.sarvam.ai/api-reference/chat/chat-completions-v2",
+      "method": "POST",
+      "endpoint": "/v2/chat/completions",
+      "required_fields": [
+        "messages",
+        "model"
+      ],
+      "models": [
+        "sarvam-105b"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Model V2",
+      "url": "https://docs.sarvam.ai/api-reference/chat/model-v2",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "model_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List Models V2",
+      "url": "https://docs.sarvam.ai/api-reference/chat/models-v2",
+      "method": "GET",
+      "endpoint": "/v2/models",
+      "required_fields": [],
+      "models": [
+        "sarvam-105b"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create Response",
+      "url": "https://docs.sarvam.ai/api-reference/responses/create",
+      "method": "POST",
+      "endpoint": "/v2/responses",
+      "required_fields": [
+        "model",
+        "input"
+      ],
+      "models": [
+        "sarvam-105b"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create Dubbing Job",
+      "url": "https://docs.sarvam.ai/api-reference/creative-agents-dubbing/create-dub",
+      "method": "POST",
+      "endpoint": "/dubbing/jobs",
+      "required_fields": [
+        "src_lang",
+        "target_langs"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Start Job",
+      "url": "https://docs.sarvam.ai/api-reference/creative-agents-dubbing/start-dub",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Live Status",
+      "url": "https://docs.sarvam.ai/api-reference/creative-agents-dubbing/live-status",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Export Status",
+      "url": "https://docs.sarvam.ai/api-reference/creative-agents-dubbing/export-status",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create Document Translation Job",
+      "url": "https://docs.sarvam.ai/api-reference/translate-document/create-doc-translation",
+      "method": "POST",
+      "endpoint": "/translate/document/jobs",
+      "required_fields": [
+        "source_language_code",
+        "original_filename",
+        "target_language_codes"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Start Job",
+      "url": "https://docs.sarvam.ai/api-reference/translate-document/start-doc-translation",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Live Status",
+      "url": "https://docs.sarvam.ai/api-reference/translate-document/doc-translation-live-status",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Trigger Export",
+      "url": "https://docs.sarvam.ai/api-reference/translate-document/doc-translation-trigger-export",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "job_id",
+        "lang"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Export Status",
+      "url": "https://docs.sarvam.ai/api-reference/translate-document/doc-translation-export-status",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create Upload URL",
+      "url": "https://docs.sarvam.ai/api-reference/doc-ai/job/upload",
+      "method": "POST",
+      "endpoint": "/doc-ai/v1/job/upload",
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Digitise Document",
+      "url": "https://docs.sarvam.ai/api-reference/doc-ai/job/digitise",
+      "method": "POST",
+      "endpoint": "/doc-ai/v1/job/digitise",
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Extract Fields",
+      "url": "https://docs.sarvam.ai/api-reference/doc-ai/job/extract",
+      "method": "POST",
+      "endpoint": "/doc-ai/v1/job/extract",
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Job Status",
+      "url": "https://docs.sarvam.ai/api-reference/doc-ai/job/status",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Job Results",
+      "url": "https://docs.sarvam.ai/api-reference/doc-ai/job/results",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Download URL",
+      "url": "https://docs.sarvam.ai/api-reference/doc-ai/job/download-url",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "WebSocket",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text/transcribe/ws",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [
+        "Api-Subscription-Key",
+        "language-code",
+        "Transcription"
+      ],
+      "models": [
+        "saaras:v4",
+        "saaras:v3"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "REST",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text-translate/translate",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "WebSocket",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text-translate/translate/ws",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [
+        "Api-Subscription-Key",
+        "Translation"
+      ],
+      "models": [
+        "saaras:v3"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Initiate Job",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text-translate/stt-translate/job/initiate",
+      "method": "POST",
+      "endpoint": "/speech-to-text-translate/job/v1",
+      "required_fields": [
+        "job_parameters"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Upload Files",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text-translate/stt-translate/job/upload",
+      "method": "POST",
+      "endpoint": "/speech-to-text-translate/job/v1/upload-files",
+      "required_fields": [
+        "job_id",
+        "files"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Start Job",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text-translate/stt-translate/job/start",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Get Status",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text-translate/stt-translate/job/status",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Batch - Download Results",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/speech-to-text-translate/stt-translate/job/download",
+      "method": "POST",
+      "endpoint": "/speech-to-text-translate/job/v1/download-files",
+      "required_fields": [
+        "job_id",
+        "files"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Initialise Job",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/document-intelligence/initialise",
+      "method": "POST",
+      "endpoint": "/doc-digitization/job/v1",
+      "required_fields": [],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Upload Links",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/document-intelligence/get-upload-links",
+      "method": "POST",
+      "endpoint": "/doc-digitization/job/v1/upload-files",
+      "required_fields": [
+        "job_id",
+        "files"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Start Job",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/document-intelligence/start",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Status",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/document-intelligence/get-status",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get Download Links",
+      "url": "https://docs.sarvam.ai/api-reference/legacy/document-intelligence/get-download-links",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "job_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create Response",
+      "url": "https://docs.sarvam.ai/api-reference/responses/create-stream",
+      "method": "POST",
+      "endpoint": "/v2/responses",
+      "required_fields": [
+        "model",
+        "input"
+      ],
+      "models": [
+        "sarvam-105b"
+      ],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create deployment",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "name",
+        "app_id",
+        "app_version",
+        "connection_configs"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List deployments",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/list",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get deployment",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/get",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update deployment",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/update",
+      "method": "PATCH",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update status",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/update-status",
+      "method": "PUT",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id",
+        "action"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Delete deployment",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/delete",
+      "method": "DELETE",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Upload cohort",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/cohorts/upload",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id",
+        "name",
+        "cohort_file",
+        "cohort_transformation_file"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Stream cohort",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/cohorts/stream",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id",
+        "name",
+        "users"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List cohorts",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/cohorts/list",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get cohort",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/cohorts/get",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id",
+        "cohort_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Download cohort file",
+      "url": "https://docs.sarvam.ai/api-reference/deployments/cohorts/download",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id",
+        "cohort_id",
+        "file_type"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create campaign",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "X-API-Key",
+        "name",
+        "app_config",
+        "allowed_schedule"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List campaigns",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/list",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get campaign",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/get",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update campaign",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/update",
+      "method": "PATCH",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update status",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/update-status",
+      "method": "PUT",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id",
+        "action"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Upload cohort",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/cohorts/upload",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id",
+        "name",
+        "cohort_file",
+        "cohort_transformation_file"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Stream cohort",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/cohorts/stream",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id",
+        "name",
+        "users"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List cohorts",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/cohorts/list",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get cohort",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/cohorts/get",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id",
+        "cohort_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Download cohort file",
+      "url": "https://docs.sarvam.ai/api-reference/campaigns/cohorts/download",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id",
+        "cohort_id",
+        "file_type"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create outbound call",
+      "url": "https://docs.sarvam.ai/api-reference/instant-outbound/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "app_config",
+        "user_config"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get attempts",
+      "url": "https://docs.sarvam.ai/api-reference/analytics/attempts",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "app_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get interactions",
+      "url": "https://docs.sarvam.ai/api-reference/analytics/interactions",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "app_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get recordings",
+      "url": "https://docs.sarvam.ai/api-reference/analytics/recordings",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "app_id",
+        "interaction_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get transcripts",
+      "url": "https://docs.sarvam.ai/api-reference/analytics/transcripts",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "app_id",
+        "interaction_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List boards",
+      "url": "https://docs.sarvam.ai/api-reference/boards/list",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create board",
+      "url": "https://docs.sarvam.ai/api-reference/boards/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "X-API-Key",
+        "name"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get board",
+      "url": "https://docs.sarvam.ai/api-reference/boards/get",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update board",
+      "url": "https://docs.sarvam.ai/api-reference/boards/update",
+      "method": "PATCH",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Duplicate board",
+      "url": "https://docs.sarvam.ai/api-reference/boards/duplicate",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create tab",
+      "url": "https://docs.sarvam.ai/api-reference/boards/tabs/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "X-API-Key",
+        "name"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update tab",
+      "url": "https://docs.sarvam.ai/api-reference/boards/tabs/update",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Run tab",
+      "url": "https://docs.sarvam.ai/api-reference/boards/tabs/run",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "tab_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create widget",
+      "url": "https://docs.sarvam.ai/api-reference/boards/widgets/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "X-API-Key",
+        "name",
+        "sql"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update widget",
+      "url": "https://docs.sarvam.ai/api-reference/boards/widgets/update",
+      "method": "PATCH",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "widget_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Duplicate widget",
+      "url": "https://docs.sarvam.ai/api-reference/boards/widgets/duplicate",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Run widget",
+      "url": "https://docs.sarvam.ai/api-reference/boards/widgets/run",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List filters",
+      "url": "https://docs.sarvam.ai/api-reference/boards/filters/list",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update filter",
+      "url": "https://docs.sarvam.ai/api-reference/boards/filters/update",
+      "method": "PATCH",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "board_id",
+        "filter_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create notification rule",
+      "url": "https://docs.sarvam.ai/api-reference/boards/notifications/create",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List notification rules",
+      "url": "https://docs.sarvam.ai/api-reference/boards/notifications/list",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get notification rule",
+      "url": "https://docs.sarvam.ai/api-reference/boards/notifications/get",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update notification rule",
+      "url": "https://docs.sarvam.ai/api-reference/boards/notifications/update",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get query schema",
+      "url": "https://docs.sarvam.ai/api-reference/boards/query/schema",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Preview query",
+      "url": "https://docs.sarvam.ai/api-reference/boards/query/preview",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "X-API-Key",
+        "sql"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List test suites",
+      "url": "https://docs.sarvam.ai/api-reference/tests/list",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Create a test suite",
+      "url": "https://docs.sarvam.ai/api-reference/tests/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "X-API-Key",
+        "name"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get a test suite",
+      "url": "https://docs.sarvam.ai/api-reference/tests/get",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "test_suite_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update a test suite",
+      "url": "https://docs.sarvam.ai/api-reference/tests/update",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Add a test case",
+      "url": "https://docs.sarvam.ai/api-reference/tests/test-cases/add",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "test_suite_id",
+        "X-API-Key",
+        "name",
+        "category",
+        "user_scenario"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get a test case",
+      "url": "https://docs.sarvam.ai/api-reference/tests/test-cases/get",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Update a test case",
+      "url": "https://docs.sarvam.ai/api-reference/tests/test-cases/update",
+      "method": "PATCH",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "test_suite_id",
+        "test_case_id",
+        "X-API-Key"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Duplicate a test case",
+      "url": "https://docs.sarvam.ai/api-reference/tests/test-cases/duplicate",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Map suite variables onto an app",
+      "url": "https://docs.sarvam.ai/api-reference/tests/mappings/create",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "test_suite_id",
+        "X-API-Key",
+        "app_id",
+        "app_version"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get the variable mapping",
+      "url": "https://docs.sarvam.ai/api-reference/tests/mappings/get",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Run a test suite",
+      "url": "https://docs.sarvam.ai/api-reference/tests/runs/run-suite",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "test_suite_id",
+        "X-API-Key",
+        "app_id",
+        "app_version"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Run a single test case",
+      "url": "https://docs.sarvam.ai/api-reference/tests/runs/run-test-case",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "test_suite_id",
+        "test_case_id",
+        "X-API-Key",
+        "app_id",
+        "app_version"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List runs",
+      "url": "https://docs.sarvam.ai/api-reference/tests/runs/list",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get a run",
+      "url": "https://docs.sarvam.ai/api-reference/tests/runs/get",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Get test case results",
+      "url": "https://docs.sarvam.ai/api-reference/tests/runs/results",
+      "method": null,
+      "endpoint": null,
+      "required_fields": [],
+      "models": [],
+      "retrieved": false,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Obtain access token",
+      "url": "https://docs.sarvam.ai/api-reference/byok/auth",
+      "method": "POST",
+      "endpoint": "/sarvam/byok/v1/auth",
+      "required_fields": [
+        "x-request-id",
+        "grant_type"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Decrypt key",
+      "url": "https://docs.sarvam.ai/api-reference/byok/decrypt-key",
+      "method": "POST",
+      "endpoint": "/sarvam/byok/v1/decrypt-key",
+      "required_fields": [
+        "x-request-id",
+        "data"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Rotate key",
+      "url": "https://docs.sarvam.ai/api-reference/byok/rotate-key",
+      "method": "POST",
+      "endpoint": "/sarvam/byok/v1/rotate-key",
+      "required_fields": [
+        "x-request-id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List Webhook Deliveries",
+      "url": "https://docs.sarvam.ai/api-reference/v-1-webhooks/list-webhook-deliveries",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Retry Webhook Deliveries",
+      "url": "https://docs.sarvam.ai/api-reference/v-1-webhooks/retry-webhook-deliveries",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "campaign_id",
+        "attempt_ids"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "List Deployment Webhook Deliveries",
+      "url": "https://docs.sarvam.ai/api-reference/v-1-webhooks/list-deployment-webhook-deliveries",
+      "method": "GET",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    },
+    {
+      "title": "Retry Deployment Webhook Deliveries",
+      "url": "https://docs.sarvam.ai/api-reference/v-1-webhooks/retry-deployment-webhook-deliveries",
+      "method": "POST",
+      "endpoint": null,
+      "required_fields": [
+        "org_id",
+        "workspace_id",
+        "deployment_id",
+        "attempt_ids"
+      ],
+      "models": [],
+      "retrieved": true,
+      "review": "machine-extracted"
+    }
+  ]
+}

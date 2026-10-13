@@ -1,0 +1,13 @@
+.venv/
+models/
+runtime/
+__pycache__/
+*.pyc
+.env
+
+# Private session notes and credentials
+.brain-pending/
+GLOBAL-AGENTBRAIN-RULE.md
+.env.*
+!.env.example
+*.log
