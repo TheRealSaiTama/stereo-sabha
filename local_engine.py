@@ -101,5 +101,3 @@ class Engine:
             vad_filter=True, vad_parameters={"min_silence_duration_ms": 400},
         )
         return " ".join(s.text.strip() for s in segments if s.no_speech_prob < 0.8).strip()
-
-
